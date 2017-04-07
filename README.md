@@ -1,3 +1,5 @@
-# 온라인 강의 노트
-데이타 캠프
-<li><a href="https://www.datacamp.com/courses/merging-dataframes-with-pandas">Merging Dataframes with Panda</a></li>
+## 온라인 강의 노트
+1. 데이타 캠프
+  - [Merging Dataframes with Panda] (https://www.datacamp.com/courses/merging-dataframes-with-panda)
+  - [Data Visualization with ggplot2] (https://www.datacamp.com/courses/data-visualization-with-ggplot2-1)
+2. Coursera
