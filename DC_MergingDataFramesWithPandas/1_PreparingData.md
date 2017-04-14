@@ -145,4 +145,34 @@ weather3 = weather1.reindex(year).ffill()
 
 # Print weather3
 print(weather3)
+
+output:
+           Mean TemperatureF
+    Month                   
+    Jan            32.133333
+    Feb                  NaN
+    Mar                  NaN
+    Apr            61.956044
+    May                  NaN
+    Jun                  NaN
+    Jul            68.934783
+    Aug                  NaN
+    Sep                  NaN
+    Oct            43.434783
+    Nov                  NaN
+    Dec                  NaN
+           Mean TemperatureF
+    Month                   
+    Jan            32.133333
+    Feb            32.133333
+    Mar            32.133333
+    Apr            61.956044
+    May            61.956044
+    Jun            61.956044
+    Jul            68.934783
+    Aug            68.934783
+    Sep            68.934783
+    Oct            43.434783
+    Nov            43.434783
+    Dec            43.434783
 ```
