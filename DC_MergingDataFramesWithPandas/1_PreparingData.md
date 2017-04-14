@@ -10,9 +10,7 @@ import pandas as pd
 bronze = pd.read_csv("Bronze.csv")
 silver = pd.read_csv("Silver.csv")
 gold = pd.read_csv("Gold.csv")
-```
 
-```
 # Print the first five rows of gold
 print(gold.head())
 
@@ -120,6 +118,31 @@ output:
 ```
 
 ### Reindexing DataFrame from a list
-```
+In this exercise, you'll reindex a DataFrame of quarterly-sampled mean temperature values to contain monthly samples (this is an example of upsampling or increasing the rate of samples, which you may recall from the pandas Foundations course).
 
+The original data has the first month's abbreviation of the quarter (three-month interval) on the Index, namely Apr, Jan, Jul, and Sep. This data has been loaded into a DataFrame called weather1 and has been printed in its entirety in the IPython Shell. Notice it has only four rows (corresponding to the first month of each quarter) and that the rows are not sorted chronologically.
+````
+print(weather1)
+output:
+Month          Mean TemperatureF         
+Apr            61.956044
+Jan            32.133333
+Jul            68.934783
+Oct            43.434783
+````
+
+You'll initially use a list of all twelve month abbreviations and subsequently apply the .ffill() method to forward-fill the null entries when upsampling. This list of month abbreviations has been pre-loaded as year.
+
+```
+# Reindex weather1 using the list year: weather2
+weather2 = weather1.reindex(year)
+
+# Print weather2
+print(weather2)
+
+# Reindex weather1 using the list year with forward-fill: weather3
+weather3 = weather1.reindex(year).ffill()
+
+# Print weather3
+print(weather3)
 ```
