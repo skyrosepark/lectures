@@ -1,8 +1,7 @@
----
-title : 1. Preparing data
----
+### Reading DataFrames from multiple files
 #### Import pandas
 ```
+# Import pandas
 import pandas as pd
 ```
 
@@ -23,4 +22,11 @@ output:
     2  GBR  United Kingdom   498.0
     3  FRA          France   378.0
     4  GER         Germany   407.0
+```
+#### Creat the list of file names : filenames
+```
+filenames = ['Gold.csv', 'Silver.csv', 'Bronze.csv']
+dataframes = []
+for filename in filenames:
+    dataframes.append(pd.read_csv(filename))
 ```
