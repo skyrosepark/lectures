@@ -1,7 +1,7 @@
 ### Import pandas
-'''{r}
+```
 import pandas as pd
-'''
+```
 
 ### Read a data file into a DataFrame
 Sample Data : list of Olympic medals awarded between 1896 & 2008
