@@ -1,3 +1,6 @@
+--
+title : 1. Preparing data
+--
 #### Import pandas
 ```
 import pandas as pd
