@@ -1,16 +1,16 @@
-### Import pandas
+#### Import pandas
 ```
 import pandas as pd
 ```
 
-### Read a data file into a DataFrame
+#### Read a data file into a DataFrame
 Sample Data : list of Olympic medals awarded between 1896 & 2008
 ```
 bronze = pd.read_csv("Bronze.csv")
 silver = pd.read_csv("Silver.csv")
 gold = pd.read_csv("Gold.csv")
 ```
-### Print the first five rows of gold
+#### Print the first five rows of gold
 ```
 print(gold.head())
 output:
