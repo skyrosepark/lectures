@@ -9,6 +9,4 @@
     - [tutorial v3](https://www.dropbox.com/s/jwpkfn5c8d1z74y/Git-training-v3.pdf?dl=1&pv=1)
     - [tutorial v2](https://www.dropbox.com/s/6o5sfs1iyd9cxdq/Git-training-v2.pdf?dl=1&pv=1)
 
-#####  테스트 한국말
-      - 가
-      - 나
+
